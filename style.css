@@ -139,7 +139,7 @@
 }
 
 .navLinkBlue {
-  color: aquamarine;
+  color: blue;
 }
 
 .navigation-link {
@@ -201,7 +201,7 @@
 .featured-products-sub {
   padding-top: 3px;
   font-size: 16px;
-  color: gray;
+  color: rgb(0, 0, 0);
   text-align: center;
 }
 
@@ -216,14 +216,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #77cdd6;
+  background-color: dodgerblue;
   min-width: 200px;
   min-height: 200px;
   border-radius: 100%;
 }
 
 .product-card1:hover {
-  background-color: #77cdd6;
+  background-color: dodgerblue;
 }
 
 .product-card1 {
@@ -299,7 +299,7 @@
 }
 
 .social-icon:hover {
-  color: #77cdd6;
+  color: dodgerblue;
 }
 
 .card-title-new {
@@ -309,16 +309,16 @@
 
 .card-text-new {
   font-size: 18px;
-  font-weight: 300;
-  color: gray;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
 }
 
 .btn-new {
   text-decoration: none;
   font-size: 30px;
   font-weight: bold;
-  background-color: #77cdd6;
-  border: 1px #77cdd6 solid;
+  background-color: dodgerblue;
+  border: 1px dodgerblue solid;
   color: #ffffff;
   width: 250px;
   text-align: center;
@@ -326,9 +326,9 @@
 }
 
 .btn-new:hover {
-  color: #77cdd6;
+  color: dodgerblue;
   background-color: white;
-  border: 1px solid #77cdd6;
+  border: 1px solid dodgerblue;
 }
 
 .contact-input-section {
@@ -384,7 +384,7 @@
 
 .footer-link-heading2:hover {
   text-decoration: none;
-  color: #77cdd6;
+  color: dodgerblue;
 }
 
 .footer-end-links {
@@ -403,7 +403,7 @@
 
 .back-to-top:hover {
   text-decoration: none;
-  color: #77cdd6;
+  color: dodgerblue;
 }
 
 .phone-display-container {
