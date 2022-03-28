@@ -14,6 +14,47 @@
   padding-bottom: 18px;
   height: 69px;
 }
+@media screen and (max-width: 499px) {
+  .Extended-Warranty {
+    display: block;
+  }
+  .protection-banner {
+    display: none;
+  }
+
+  #search-items {
+    display: none;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropdown-horizontal {
+    display: block;
+  }
+
+  .carousal-img {
+    height: 200px;
+  }
+  .footer-list-item {
+    display: none;
+  }
+  .footer-list-heading {
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 0.1em;
+    text-align: center;
+  }
+
+  .back-button {
+    text-align: center;
+    font-size: 0.5em;
+  }
+
+  .footer-end-links {
+    text-align: center;
+  }
+}
 
 @media screen and (min-width: 720px) {
   .dropdown:hover .dropdown-content {
@@ -27,11 +68,12 @@
   #search-items {
     display: block;
   }
-  .Extended-Warranty {
-    display: none;
-  }
+
   .protection-banner {
     display: block;
+  }
+  .Extended-Warranty {
+    display: none;
   }
   .carousal-img {
     height: 550px;
@@ -55,7 +97,7 @@
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 720px) and (min-width: 499px) {
   #search-items {
     display: none;
   }
@@ -67,10 +109,10 @@
     display: block;
   }
 
-  .Extended-Warranty {
+  .protection-banner {
     display: block;
   }
-  .protection-banner {
+  .Extended-Warranty {
     display: none;
   }
   .carousal-img {
@@ -227,6 +269,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  max-height: 100%;
 }
 
 .card-india-base {
@@ -390,7 +433,7 @@
 }
 
 .phone-img {
-  width: 160px;
+  max-width: 160px;
 }
 
 .phone-reel {
